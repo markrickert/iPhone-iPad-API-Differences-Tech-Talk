@@ -40,7 +40,7 @@
 {
   [super viewWillAppear:animated];
   
-  int catImagePicker = arc4random() % 8;
+  int catImagePicker = arc4random() % 7;
   NSString *catPictureChosen = [NSString stringWithFormat:@"modal_%u.jpg", catImagePicker];
   [self.image setImage:[UIImage imageNamed:catPictureChosen]];  
 }
