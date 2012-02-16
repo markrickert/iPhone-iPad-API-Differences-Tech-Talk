@@ -29,8 +29,8 @@
 -(IBAction)customSizeModal:(id)sender;
 
 //Popovers
--(IBAction)regularPopover:(UIButton *)sender
-;-(IBAction)pinnedPopover:(UIBarButtonItem *)sender;
+-(IBAction)regularPopover:(UIButton *)sender;
+-(IBAction)pinnedPopover:(UIBarButtonItem *)sender;
 
 //Actiop Sheet
 -(IBAction)pinnedActionSheet:(UIButton *)sender;
